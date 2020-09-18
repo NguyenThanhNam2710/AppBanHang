@@ -13,6 +13,10 @@
 		147AB201251497530078E15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147AB1FF251497530078E15D /* Main.storyboard */; };
 		147AB203251497540078E15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147AB202251497540078E15D /* Assets.xcassets */; };
 		147AB206251497540078E15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147AB204251497540078E15D /* LaunchScreen.storyboard */; };
+		147AB21425149A660078E15D /* lienvietLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AB21325149A660078E15D /* lienvietLogo.png */; };
+		147AB21B25149AE50078E15D /* u218.png in Resources */ = {isa = PBXBuildFile; fileRef = 147AB21A25149AE50078E15D /* u218.png */; };
+		147AB21E25149ED30078E15D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AB21D25149ED30078E15D /* ViewController2.swift */; };
+		147AB2212514BFD10078E15D /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AB2202514BFD10078E15D /* TableViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		147AB202251497540078E15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147AB205251497540078E15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147AB207251497540078E15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147AB21325149A660078E15D /* lienvietLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lienvietLogo.png; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/images/lienvietLogo.png"; sourceTree = "<group>"; };
+		147AB21A25149AE50078E15D /* u218.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = u218.png; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/images 2/u218.png"; sourceTree = "<group>"; };
+		147AB21D25149ED30078E15D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		147AB2202514BFD10078E15D /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		147AB1F8251497530078E15D /* AppBanHang */ = {
 			isa = PBXGroup;
 			children = (
+				147AB21225149A550078E15D /* images */,
 				147AB1F9251497530078E15D /* AppDelegate.swift */,
 				147AB1FB251497530078E15D /* SceneDelegate.swift */,
 				147AB1FD251497530078E15D /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				147AB202251497540078E15D /* Assets.xcassets */,
 				147AB204251497540078E15D /* LaunchScreen.storyboard */,
 				147AB207251497540078E15D /* Info.plist */,
+				147AB21D25149ED30078E15D /* ViewController2.swift */,
+				147AB2202514BFD10078E15D /* TableViewController2.swift */,
 			);
 			path = AppBanHang;
+			sourceTree = "<group>";
+		};
+		147AB21225149A550078E15D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				147AB21A25149AE50078E15D /* u218.png */,
+				147AB21325149A660078E15D /* lienvietLogo.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147AB21425149A660078E15D /* lienvietLogo.png in Resources */,
+				147AB21B25149AE50078E15D /* u218.png in Resources */,
 				147AB206251497540078E15D /* LaunchScreen.storyboard in Resources */,
 				147AB203251497540078E15D /* Assets.xcassets in Resources */,
 				147AB201251497530078E15D /* Main.storyboard in Resources */,
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147AB2212514BFD10078E15D /* TableViewController2.swift in Sources */,
 				147AB1FE251497530078E15D /* ViewController.swift in Sources */,
+				147AB21E25149ED30078E15D /* ViewController2.swift in Sources */,
 				147AB1FA251497530078E15D /* AppDelegate.swift in Sources */,
 				147AB1FC251497530078E15D /* SceneDelegate.swift in Sources */,
 			);
